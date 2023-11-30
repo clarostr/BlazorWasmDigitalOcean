@@ -1,8 +1,8 @@
-name: swimburger-blazor-wasm
+name: clarostr-blazor-wasm
 static_sites:
 - name: site
   github:
-    repo: Swimburger/BlazorWasmDigitalOcean
+    repo: clarostr/BlazorWasmDigitalOcean
     branch: main
     deploy_on_push: true
   dockerfile_path: Dockerfile.build 
